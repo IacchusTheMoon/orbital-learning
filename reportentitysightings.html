@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orbital Learning</title>
+     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/9a036acf0c.js" crossorigin="anonymous"></script>
+    <link href="favicon.png" rel="icon" type="image/png">
+  </head>
+  
+  <body>
+    <!-- header below -->
+    <br>
+    <header><img src="images/orbital-learning-logo.png" alt="Orbital Learning Logo">
+      <br><br>
+      <!-- header above -->
+      <!-- nav section below -->
+    <nav>
+      <ul>
+        <li><a href= "index.html">Home</a></li>
+        <li><a href= "episodes.html">Episodes</a></li>
+        <li><a href= "aboutiacchus.html">About Iacchus</a></li>
+        <li><a href= "homehiderpopulation.html">Home Hider Population</a></li>
+        <li><a href= "reportentitysightings.html">Report Entity Sightings</a></li>
+        <li><a href= "entitygallery.html">Entity Gallery</a></li>
+        <li><a href= "store.html">Store</a></li>
+      </ul>
+    </nav>
+      <!--nav section above-->
+    </header>
+    <br>
+  
+  <main>
+  <section>
+    <h3>
+      Have you seen anything suspiciously inhuman?
+      <br>Fill the form below to report your sighting.
+    </h3>
+    <hr>
+    <form method="get" target="_self" autocomplete="off" action="#">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="first-name">First Name: </label><br>
+        <input type="text" id="first-name" class="user-info" name="first-name" placeholder="First Name" required><br>
+        
+        <label for="last-name">Last Name: </label><br>
+        <input type="text" id="last-name" class="user-info" name="last-name" placeholder="Last Name" required><br>
+        
+        <label for="email">Email Address: </label><br>
+        <input type="email" id="email" class="user-info" name="email" placeholder="someone@example.com" required><br>
+        
+        <label for="phone">Phone Number: </label><br>
+        <input type="tel" id="phone" class="user-info" name="phone" placeholder="555-555-5555" required><br>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Entity Type</legend>
+        <label for="select">Which entity do you think you encountered?</label>
+        <select name="select" id="select">
+          <option value="Memory Shadow">Memory Shadow</option>
+          <option value="Footprint Shadow">Footprint Shadow</option>
+          <option value="Home Hider">Home Hider</option>
+          <option value="Unseen Whisperer">Unseen Whisperer</option>
+          <option value="Other">Other</option>
+        </select><br>
+        
+        <label for="other-1" class="other">If you selected "Other", please specify if it seemed human.</label>
+        <input type="text" class="user-info" name="other-human" id="other-1" placeholder="Human or not">
+      </fieldset>
+      
+      <fieldset>
+        <legend>Attributes</legend>
+        <h1>What was this entity like?</h1>
+        <input type="checkbox" name="humanoid" id="humanoid" value="Humanoid">
+        <label for="humanoid">Humanoid</label><br>
+        
+        <input type="checkbox" name="levitating" id="levitating" value="Levitating">
+        <label for="levitating">Levitating</label><br>
+        
+        <input type="checkbox" name="camouflaged" id="camouflaged" value="Camouflaged">
+        <label for="camouflaged">Camouflaged</label><br>
+        
+        <input type="checkbox" name="spectral" id="spectral" value="Spectral">
+        <label for="spectral">Spectral</label><br>
+        
+        <input type="checkbox" name="shapeless" id="shapeless" value="Shapeless">
+        <label for="shapeless">Shapeless</label><br>
+        
+        <input type="checkbox" name="dark" id="dark" value="Dark">
+        <label for="dark">Dark</label><br>
+        
+        <input type="checkbox" name="other-attributes" id="other-2" value="Other">
+        <label for="other-2">Other</label><br>
+        
+        <label for="other-3" class="other">If you selected "Other", please provide other attributes not listed above.</label>
+        <input type="text" class="user-info" name="other-description" id="other-3" placeholder="Unlisted attributes">
+      </fieldset>
+      
+      <fieldset>
+        <legend>Threat Level</legend>
+        <h1>Was this encounter a threat to you and/or others?</h1>
+        <input type="radio" id="yes" name="threat-level" value="yes">
+        <label for="yes">Yes</label><br>
+        
+        <input type="radio" id="no" name="threat-level" value="no">
+        <label for="no">No</label><br>
+        
+        <input type="radio" id="unsure" name="threat-level" value="unsure">
+        <label for="unsure">Unsure</label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Other Details</legend>
+        <label for="comments">If you have any other information about your encounter such as date, time, location, etc., please list them below.</label>
+        <textarea name="comments" id="comments" class="user-info" placeholder="Date, time, location, etc."></textarea>
+      </fieldset>
+      <br>
+      <input type="submit" name="submit" value="Submit Form" id="submit-button">
+    </form>
+  </section>
+</main>
+      
+  
+    <!-- footer -->
+    <footer>
+      <h2>
+        Contact Us
+      </h2>
+      <p>
+        1-(800)-555-IACCHUS | contact@orbitallearning.com
+      </p>
+      <p>
+        2427 Horizon Arch Orbital Learning Facility Delta, UT 84101
+      </p>
+    <p>&copy;2024 Orbital Learning <br>Rowan Larkin<br>All rights reserved.</p><br>
+  </footer>
+  </body>
+</html>
